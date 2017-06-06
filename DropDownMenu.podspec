@@ -23,8 +23,10 @@ Pod::Spec.new do |s|
 
 
   s.source       = { :git => "https://github.com/TonnyTeng/DropDownMenu.git", :tag => “0.0.2” }
-  s.source_files  = “DTDropDownMenu/DropDownMenu/*.{h,m}”
-
+  s.source_files  = 'DTDropDownMenu/DropDownMenu/*.{h,m}'
+#Desktop/DropDownMenu/DTDropDownMenu/DropDownMenu
+#s.source_files  = 'SlidingSegmentedControlDemo/SlidingSegmentedControlDemo/SlidingSegmentControl/*.{h,m}'
+#Desktop/SlidingSegmentControl/SlidingSegmentedControlDemo/SlidingSegmentedControlDemo/SlidingSegmentControl
   s.framework  = “UIKit”
 
   s.requires_arc = true
