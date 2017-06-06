@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "DropDownMenu"
-  s.version      = "0.0.2"
+  s.version      = "0.0.1"
   s.summary      = "DropDownMenu"
 
   s.description  = <<-DESC
@@ -17,17 +17,18 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
 
 
-  s.author             = { "dengtao" => "1083683360@qq.com" }
+  s.author       = { "dengtao" => "1083683360@qq.com" }
 
   s.ios.deployment_target = '8.0'
 
 
-  s.source       = { :git => "https://github.com/TonnyTeng/DropDownMenu.git", :tag => “0.0.2” }
-  s.source_files  = 'DTDropDownMenu/DropDownMenu/*.{h,m}'
+  s.source       = { :git => "https://github.com/TonnyTeng/DropDownMenu.git", :tag => “0.0.1” }
+  s.source_files = 'DTDropDownMenu/DropDownMenu/*.{h,m}'
+
 #Desktop/DropDownMenu/DTDropDownMenu/DropDownMenu
 #s.source_files  = 'SlidingSegmentedControlDemo/SlidingSegmentedControlDemo/SlidingSegmentControl/*.{h,m}'
 #Desktop/SlidingSegmentControl/SlidingSegmentedControlDemo/SlidingSegmentedControlDemo/SlidingSegmentControl
-  s.framework  = “UIKit”
+  s.framework    = “UIKit”
 
   s.requires_arc = true
 
