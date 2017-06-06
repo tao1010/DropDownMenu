@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.author             = { "dengtao" => "1083683360@qq.com" }
 
-  s.platform     = :ios, “8.0”
+  s.ios.deployment_target = '8.0'
 
 
   s.source       = { :git => "https://github.com/TonnyTeng/DropDownMenu.git", :tag => “0.0.1” }
