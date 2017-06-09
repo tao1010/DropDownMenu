@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
 
 
   s.source       = { :git => "https://github.com/TonnyTeng/DropDownMenu.git", :tag => “0.0.3” }
-  s.source_files = 'DropDownMenu/DTDropDownMenu/DTDropDownMenu/DropDownMenu/*.{h,m}'
+  s.source_files = 'DTDropDownMenu/DTDropDownMenu/DropDownMenu/*.{h,m}'
 
   s.framework    = “UIKit”
 
