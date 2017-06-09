@@ -16,6 +16,7 @@
 		0666BC411EE4F2D400D5F30D /* DropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 0666BC401EE4F2D400D5F30D /* DropDownMenu.m */; };
 		0689C3511EEA3E2D003473BC /* icon_make.png in Resources */ = {isa = PBXBuildFile; fileRef = 0689C34F1EEA3E2D003473BC /* icon_make.png */; };
 		0689C3521EEA3E2D003473BC /* white_gou.png in Resources */ = {isa = PBXBuildFile; fileRef = 0689C3501EEA3E2D003473BC /* white_gou.png */; };
+		DB022F597F9CCE52BC6B9895 /* libPods-DTDropDownMenu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4773BED7BD8E04E7C10C266C /* libPods-DTDropDownMenu.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,9 @@
 		0666BC401EE4F2D400D5F30D /* DropDownMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropDownMenu.m; sourceTree = "<group>"; };
 		0689C34F1EEA3E2D003473BC /* icon_make.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_make.png; sourceTree = "<group>"; };
 		0689C3501EEA3E2D003473BC /* white_gou.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = white_gou.png; sourceTree = "<group>"; };
+		351A188EC9CAC32AFD8CB0FD /* Pods-DTDropDownMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DTDropDownMenu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DTDropDownMenu/Pods-DTDropDownMenu.debug.xcconfig"; sourceTree = "<group>"; };
+		4773BED7BD8E04E7C10C266C /* libPods-DTDropDownMenu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DTDropDownMenu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B18064C6B797AEE711D4CA43 /* Pods-DTDropDownMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DTDropDownMenu.release.xcconfig"; path = "Pods/Target Support Files/Pods-DTDropDownMenu/Pods-DTDropDownMenu.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB022F597F9CCE52BC6B9895 /* libPods-DTDropDownMenu.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +56,8 @@
 			children = (
 				0666BC261EE4F22000D5F30D /* DTDropDownMenu */,
 				0666BC251EE4F22000D5F30D /* Products */,
+				1AA125C95DFB290ACBA541C2 /* Pods */,
+				FAD8ED764ADEAD80EA5066DF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,6 +105,23 @@
 			path = DropDownMenu;
 			sourceTree = "<group>";
 		};
+		1AA125C95DFB290ACBA541C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				351A188EC9CAC32AFD8CB0FD /* Pods-DTDropDownMenu.debug.xcconfig */,
+				B18064C6B797AEE711D4CA43 /* Pods-DTDropDownMenu.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FAD8ED764ADEAD80EA5066DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4773BED7BD8E04E7C10C266C /* libPods-DTDropDownMenu.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -105,9 +129,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0666BC3B1EE4F22000D5F30D /* Build configuration list for PBXNativeTarget "DTDropDownMenu" */;
 			buildPhases = (
+				D71C4D8D391D3B6FEA780669 /* [CP] Check Pods Manifest.lock */,
 				0666BC201EE4F22000D5F30D /* Sources */,
 				0666BC211EE4F22000D5F30D /* Frameworks */,
 				0666BC221EE4F22000D5F30D /* Resources */,
+				1C3E3C84EFEB1420CC1B5CDF /* [CP] Embed Pods Frameworks */,
+				11DF3C09D2A19511F334124F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -166,6 +193,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11DF3C09D2A19511F334124F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DTDropDownMenu/Pods-DTDropDownMenu-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1C3E3C84EFEB1420CC1B5CDF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DTDropDownMenu/Pods-DTDropDownMenu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D71C4D8D391D3B6FEA780669 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0666BC201EE4F22000D5F30D /* Sources */ = {
@@ -293,6 +368,7 @@
 		};
 		0666BC3C1EE4F22000D5F30D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 351A188EC9CAC32AFD8CB0FD /* Pods-DTDropDownMenu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = RAGM772GXX;
@@ -306,6 +382,7 @@
 		};
 		0666BC3D1EE4F22000D5F30D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B18064C6B797AEE711D4CA43 /* Pods-DTDropDownMenu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = RAGM772GXX;
