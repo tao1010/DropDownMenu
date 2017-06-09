@@ -14,8 +14,8 @@
 		0666BC341EE4F22000D5F30D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0666BC331EE4F22000D5F30D /* Assets.xcassets */; };
 		0666BC371EE4F22000D5F30D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0666BC351EE4F22000D5F30D /* LaunchScreen.storyboard */; };
 		0666BC411EE4F2D400D5F30D /* DropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 0666BC401EE4F2D400D5F30D /* DropDownMenu.m */; };
-		0689C34C1EEA3DB1003473BC /* icon_make.png in Resources */ = {isa = PBXBuildFile; fileRef = 0689C34B1EEA3DB1003473BC /* icon_make.png */; };
-		0689C34E1EEA3DB6003473BC /* white_gou.png in Resources */ = {isa = PBXBuildFile; fileRef = 0689C34D1EEA3DB6003473BC /* white_gou.png */; };
+		0689C3511EEA3E2D003473BC /* icon_make.png in Resources */ = {isa = PBXBuildFile; fileRef = 0689C34F1EEA3E2D003473BC /* icon_make.png */; };
+		0689C3521EEA3E2D003473BC /* white_gou.png in Resources */ = {isa = PBXBuildFile; fileRef = 0689C3501EEA3E2D003473BC /* white_gou.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,8 +31,8 @@
 		0666BC381EE4F22000D5F30D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0666BC3F1EE4F2D400D5F30D /* DropDownMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropDownMenu.h; sourceTree = "<group>"; };
 		0666BC401EE4F2D400D5F30D /* DropDownMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropDownMenu.m; sourceTree = "<group>"; };
-		0689C34B1EEA3DB1003473BC /* icon_make.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_make.png; sourceTree = "<group>"; };
-		0689C34D1EEA3DB6003473BC /* white_gou.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = white_gou.png; sourceTree = "<group>"; };
+		0689C34F1EEA3E2D003473BC /* icon_make.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_make.png; sourceTree = "<group>"; };
+		0689C3501EEA3E2D003473BC /* white_gou.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = white_gou.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,8 +69,6 @@
 				0666BC2B1EE4F22000D5F30D /* AppDelegate.m */,
 				0666BC2D1EE4F22000D5F30D /* ViewController.h */,
 				0666BC2E1EE4F22000D5F30D /* ViewController.m */,
-				0689C34D1EEA3DB6003473BC /* white_gou.png */,
-				0689C34B1EEA3DB1003473BC /* icon_make.png */,
 				0666BC3E1EE4F27500D5F30D /* DropDownMenu */,
 				0666BC301EE4F22000D5F30D /* Main.storyboard */,
 				0666BC331EE4F22000D5F30D /* Assets.xcassets */,
@@ -92,6 +90,8 @@
 		0666BC3E1EE4F27500D5F30D /* DropDownMenu */ = {
 			isa = PBXGroup;
 			children = (
+				0689C34F1EEA3E2D003473BC /* icon_make.png */,
+				0689C3501EEA3E2D003473BC /* white_gou.png */,
 				0666BC3F1EE4F2D400D5F30D /* DropDownMenu.h */,
 				0666BC401EE4F2D400D5F30D /* DropDownMenu.m */,
 			);
@@ -158,9 +158,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0666BC371EE4F22000D5F30D /* LaunchScreen.storyboard in Resources */,
-				0689C34E1EEA3DB6003473BC /* white_gou.png in Resources */,
+				0689C3521EEA3E2D003473BC /* white_gou.png in Resources */,
 				0666BC341EE4F22000D5F30D /* Assets.xcassets in Resources */,
-				0689C34C1EEA3DB1003473BC /* icon_make.png in Resources */,
+				0689C3511EEA3E2D003473BC /* icon_make.png in Resources */,
 				0666BC321EE4F22000D5F30D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
